@@ -1,10 +1,9 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const dbURL = process.env.DB_URL;
+const dbURL = process.env.CLOUD_DB_URL;
 
 mongoose.connect(dbURL, {});
-
 const db = mongoose.connection;
 
 db.on('disconnected', ()=> {
