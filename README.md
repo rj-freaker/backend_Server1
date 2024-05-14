@@ -1,7 +1,13 @@
-```markdown
+
 # Person and Anime Character Database API
 
-This API is designed to manage information about both persons and anime characters. It utilizes Express and Node.js and allows for CRUD operations on both persons and characters.
+This API allows for managing information about persons and anime characters. It employs Express and Node.js and supports CRUD operations on both entities.
+
+## Table of Contents
+
+- [Endpoints](#endpoints)
+- [Data Models](#data-models)
+- [Usage](#usage)
 
 ## Endpoints
 
