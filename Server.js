@@ -25,7 +25,7 @@ app.get('/', (req,res) => {
     res.send('This is default get request without authentication');
 })
 
-app.use('/person',localPassportMiddleware, require('./routes/personRoutes'));
+app.use('/person', require('./routes/personRoutes'));
 
 app.use('/character', require('./routes/characterRoutes'));
 
